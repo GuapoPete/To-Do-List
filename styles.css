@@ -1,0 +1,13 @@
+/* Styles for the to-do list */
+ul {
+    list-style: none;
+}
+
+li {
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+li.completed {
+    text-decoration: line-through;
+}
